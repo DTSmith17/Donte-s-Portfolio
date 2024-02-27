@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: blanchedalmond;
+}
+
+main {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMeText {
+    display: inline-flex;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+
+header  {
+    padding: 20px;
+    background-color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links {
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin-right: 20px;
+}
+
+.nav_links h2 {
+    display:inline-block;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.webpagetitle {
+    font-size: 48px;
+    color: #d9dcd6;
+    padding-top: 1px;
+    margin-right: 20px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h1 {
+    size: 200px;
+    color: black;
+    text-align:    ;
+}
+
+section h1 p {
+    size: 50px;
+    color: black;
+}
+
+.aboutSect {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    border-style: solid;
+
+
+}
+
+.workSect {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.contactSect {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.resumeSect {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
