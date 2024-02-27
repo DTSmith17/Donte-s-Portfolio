@@ -14,6 +14,22 @@ main {
     flex-wrap: wrap;
 }
 
+.abtCont {
+    display: flex;
+    
+}
+
+.workCont {
+    display: flex;
+}
+
+.contactCont {
+    display: flex;
+}
+
+.resume {
+    display: flex;
+}
 .aboutMeText {
     display: inline-flex;
     text-wrap: wrap;
