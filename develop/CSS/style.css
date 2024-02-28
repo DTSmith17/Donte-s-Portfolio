@@ -10,30 +10,34 @@ body {
 main {
     margin: 5px;
     padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .abtCont {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% auto;
     
 }
 
 .workCont {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% auto;
 }
 
 .contactCont {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% auto;
 }
 
-.resume {
-    display: flex;
+.resumeCont {
+    display: grid;
+    grid-template-columns: 25% auto;
+
 }
 .aboutMeText {
-    display: inline-flex;
-    text-wrap: wrap;
-    text-align: center;
+    inline-size: 1000px;
+    overflow-wrap: break-word;
+    text-align: left;
+    
 }
 
 
@@ -69,45 +73,51 @@ p {
     flex-wrap: wrap;
 }
 
-section h1 {
-    size: 200px;
-    color: black;
-    text-align:    ;
-}
-
-section h1 p {
-    size: 50px;
-    color: black;
-}
 
 .aboutSect {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
-    border-style: solid;
+    padding-right: 6px;
+    border-right: 4px;
+    border-right-style: solid;
+}
 
-
+#aboutTitle {
+    font-size: 50px;
+    color: black;
+    text-align: right;
 }
 
 .workSect {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
+    padding-right: 6px;
+    border-right: 4px;
+    border-right-style: solid;
+}
+
+#workTitle {
+    font-size: 50px;
+    color: black;
+    text-align: right;
 }
 
 .contactSect {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
+    padding-right: 6px;
+    border-right: 4px;
+    border-right-style: solid;
+}
+
+#contactTitle {
+    font-size: 50px;
+    color: black;
+    text-align: right;
 }
 
 .resumeSect {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
+    padding-right: 6px;
+    border-right: 4px;
+    border-right-style: solid;
 }
 
+#resumeTitle {
+    font-size: 50px;
+    color: black;
+    text-align: right;
+}
