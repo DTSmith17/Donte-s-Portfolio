@@ -21,11 +21,35 @@ main {
 .workCont {
     display: grid;
     grid-template-columns: 25% auto;
+    padding: 20px;
+}
+
+.workSectLink {
+    width: 80%;
+    padding: 20px;
+}
+.workMultiCont {
+    display: flex;
+    column-gap: 20px;
+}
+
+#project1 {
+    display: grid;
+    border-style: solid;
+}
+
+#module1Proj {
+    display: flex;
+    border-style: solid;
+    font-size: 30px;
+    font-weight: 1000;
+    
 }
 
 .contactCont {
     display: grid;
     grid-template-columns: 25% auto;
+    padding: 20px;
 }
 
 .resumeCont {
@@ -34,19 +58,25 @@ main {
 
 }
 .aboutMeText {
+    width: 80;
     inline-size: 1000px;
     overflow-wrap: break-word;
     text-align: left;
+    padding: 20px;
     
 }
 
 
 header  {
+    width: 140%;
     padding: 20px;
     background-color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 .nav_links {
@@ -56,26 +86,38 @@ header  {
 }
 
 .nav_links h2 {
+    
     display:inline-block;
     margin-left: 25px;
     font-size: 20px;
 }
 
 .webpagetitle {
-    font-size: 48px;
-    color: #d9dcd6;
+    font-size: 60px;
+    font-weight: 6000;
+    color: black;
     padding-top: 1px;
     margin-right: 20px;
 }
 
-p {
-    display: flex;
-    flex-wrap: wrap;
+.abtCont {
+    
+    padding: 20px;
+}
+
+.contactLeft,
+.contactRight,
+.resumeLeft,
+.resumeRight,
+.resumeCont {
+    padding: 20px;
 }
 
 
+
+
 .aboutSect {
-    padding-right: 6px;
+    padding: 10px;
     border-right: 4px;
     border-right-style: solid;
 }
@@ -84,12 +126,14 @@ p {
     font-size: 50px;
     color: black;
     text-align: right;
+    padding: 10px;
 }
 
 .workSect {
     padding-right: 6px;
     border-right: 4px;
     border-right-style: solid;
+    padding: 20px;
 }
 
 #workTitle {
@@ -98,7 +142,7 @@ p {
     text-align: right;
 }
 
-.contactSect {
+.contactLeft {
     padding-right: 6px;
     border-right: 4px;
     border-right-style: solid;
@@ -110,7 +154,7 @@ p {
     text-align: right;
 }
 
-.resumeSect {
+.resumeLeft {
     padding-right: 6px;
     border-right: 4px;
     border-right-style: solid;
@@ -121,3 +165,4 @@ p {
     color: black;
     text-align: right;
 }
+
