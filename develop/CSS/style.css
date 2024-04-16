@@ -1,182 +1,211 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
-    background-color: seashell;
+  background-color: seashell;
+}
+main {
+  background-color: rgb(133, 113, 151);
 }
 
-main {
-    margin: 5px;
-    padding: 5px;
+#mainHeadingGraphics {
+  background-image: url("../img/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy.jpg");
+  height: 300px;
 }
 
 .abtCont {
-    display: grid;
-    grid-template-columns: 25% auto;
-    
+  display: grid;
+  grid-template-columns: 25% auto;
 }
 
 .workCont {
-    display: grid;
-    grid-template-columns: 25% auto;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 25% auto;
 }
 
 .workSectLink {
-    width: 80%;
-    padding: 20px;
+  width: 80%;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
+
+#linkOne {
+  height: 100%;
+  width: 100%;
+}
+#remLinks {
+  height: 100%;
+  width: 100%;
+}
+
+.workBadge {
+  display: inline-flex;
+  color: bisque;
+  position: relative;
+  top: -90px;
+  background-color: purple;
+  text-wrap: wrap;
+  height: 60px;
+  padding: 10px;
+  font-size: large;
+}
+
+.workLinks {
+  border: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  border-color: purple;
+}
+.workSectLink:first-child {
+  display: flex;
+  flex-basis: 100%;
+  /* justify-content: flex-end; */
+  border: none;
+}
+
+.workSectLink:nth-child(n + 2) {
+  display: flex;
+  flex-basis: 20%;
+  position: relative;
+}
+
 .workMultiCont {
-    display: flex;
-    column-gap: 20px;
+  display: flex;
+  column-gap: 20px;
 }
 
 #project1 {
-    display: grid;
-    border-style: solid;
+  display: grid;
+  border-style: solid;
 }
 
 #module1Proj {
-    height: 100px;
-    display: flex;
-    position: absolute;
-    bottom: 50px;
-    background-color: aqua;
-    font-size: 30px;
-    font-weight: 1000;
-    
+  height: 100px;
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  background-color: aqua;
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 .contactCont {
-    display: grid;
-    grid-template-columns: 25% auto;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 25% auto;
+  padding: 20px;
 }
 
 #contactInfo {
-    display: grid;
+  display: grid;
 }
 
-.resumeCont {
-    display: grid;
-    grid-template-columns: 25% auto;
-
-}
 .aboutMeText {
-    width: 80;
-    inline-size: 1000px;
-    overflow-wrap: break-word;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px;
-    
-    
+  width: 80;
+  inline-size: 1000px;
+  overflow-wrap: break-word;
+  text-align: left;
+  padding: 20px;
+  font-size: 30px;
 }
 
-
-
-header  {
-    width: 140%;
-    padding: 20px;
-    background-color: gray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+header {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background-color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .nav_links {
-    list-style: none;
-    padding: 15px 0 0 0;
-    margin-right: 20px;
-    
+  list-style: none;
+  padding: 15px 0 0 0;
+  margin-right: 20px;
 }
 
 .nav_links h1 {
-    display:inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  color: purple;
 }
 
 .webpagetitle {
-    font-size: 60px;
-    font-weight: 6000;
-    color: black;
-    padding-top: 1px;
-    margin-right: 20px;
+  font-size: 60px;
+  font-weight: 6000;
+  color: purple;
+  margin-right: 20px;
 }
 
 .abtCont {
-    
-    padding: 20px;
+  padding: 20px;
 }
 
 .contactLeft,
-.contactRight,
-.resumeLeft,
-.resumeRight,
-.resumeCont {
-    padding: 20px;
+.contactRight {
+  padding: 20px;
 }
-
-
-
 
 .aboutSect {
-    padding: 10px;
-    border-right: 4px;
-    border-right-style: solid;
-    border-color: black;
+  padding: 10px;
+  border-right: 4px;
+  border-right-style: solid;
+  border-color: black;
 }
 
-#aboutTitle {
-    font-size: 50px;
-    color: black;
-    text-align: right;
-    padding: 10px;
-    text-decoration: none;
+.title {
+  font-size: 50px;
+  color: black;
+  text-align: right;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .workSect {
-    padding-right: 6px;
-    border-right: 4px;
-    border-right-style: solid;
-    padding: 20px;
-    height: 1000px;
-    border-color: black;
+  padding-right: 6px;
+  border-right: 4px;
+  border-right-style: solid;
+  padding: 20px;
+  height: 1000px;
+  border-color: black;
 }
 
 #workTitle {
-    font-size: 50px;
-    color: black;
-    text-align: right;
-    
+  font-size: 50px;
+  color: black;
+  text-align: right;
 }
 
 .contactLeft {
-    padding-right: 6px;
-    border-right: 4px;
-    border-right-style: solid;
+  padding-right: 6px;
+  border-right: 4px;
+  border-right-style: solid;
 }
 
-#contactTitle {
-    font-size: 50px;
-    color: black;
-    text-align: right;
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .aboutMeText {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title {
+    display: flex;
+    flex-direction: column; /* Display titles vertically */
+  }
 }
 
-.resumeLeft {
-    padding-right: 6px;
-    border-right: 4px;
-    border-right-style: solid;
+@media screen and (max-width: 768px) {
+  .aboutMeText {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title {
+    display: flex;
+    flex-direction: column; /* Display titles vertically */
+  }
 }
-
-#resumeTitle {
-    font-size: 50px;
-    color: black;
-    text-align: right;
-}
-
